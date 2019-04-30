@@ -9,7 +9,8 @@ defmodule ChroxyClient.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: description(),
-      package: package()
+      package: package(),
+      docs: [main: "ChroxyClient", logo: "logo.png", extras: ["README.md"]]
     ]
   end
 
@@ -24,7 +25,8 @@ defmodule ChroxyClient.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:chrome_remote_interface, "~> 0.2.0"}
+      {:chrome_remote_interface, "~> 0.2.0"},
+      {:ex_doc, "~> 0.20", only: :dev, runtime: false}
     ]
   end
 
