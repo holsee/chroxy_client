@@ -36,7 +36,7 @@ defmodule ChroxyClient.MixProject do
 
   defp package() do
     [
-      name: "chroxy client",
+      name: "chroxy_client",
       files: ["config", "lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Steven Holdsworth (@holsee)"],
       licenses: ["MIT"],
