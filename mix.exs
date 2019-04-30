@@ -22,7 +22,7 @@ defmodule ChroxyClient.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:chrome_remote_interface, "~> 0.1.0"}
+      {:chrome_remote_interface, "~> 0.2.0"}
     ]
   end
 end
